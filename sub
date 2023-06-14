@@ -1,0 +1,8 @@
+str="hello world"
+substr="world"
+if[[$str==*"$substr"*]];
+then
+echo"String contains substring."
+else
+echo"String doesnot contain substring."
+fi
